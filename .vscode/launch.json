@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "name": "Lua",
+      "type": "lua",
+      "request": "launch",
+      "program": "${workspaceFolder}/DEVELOP/DA/main.lua",
+      "console": "integratedTerminal",
+      "env": {
+        "PATH": "C:\\Users\\Cathe.DESKTOP-15HC8CV\\AppData\\Local\\MPV;C:\\Users\\Cathe.DESKTOP-15HC8CV\\AppData\\Local\\FFMPEG\\bin;${env:PATH}"
+      }
+    }
+  ]
+}
