@@ -1,14 +1,12 @@
 {
   "configurations": [
     {
-      "name": "Lua",
-      "type": "lua",
+      "name": "Love2D",
+      "type": "lua",   // Lua 디버거가 아니라 단순 실행용
       "request": "launch",
-      "program": "${workspaceFolder}/DEVELOP/DA/main.lua",
-      "console": "integratedTerminal",
-      "env": {
-        "PATH": "C:\\Users\\Cathe.DESKTOP-15HC8CV\\AppData\\Local\\MPV;C:\\Users\\Cathe.DESKTOP-15HC8CV\\AppData\\Local\\FFMPEG\\bin;${env:PATH}"
-      }
+      "program": "C:/Program Files/LOVE/love.exe",
+      "args": ["${workspaceFolder}"],
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

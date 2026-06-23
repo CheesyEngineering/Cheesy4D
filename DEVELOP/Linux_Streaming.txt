@@ -1,0 +1,8 @@
+@echo off
+
+set USER=uid
+set HOST=ip
+
+ssh %USER%@%HOST% -t "tmux attach -r"
+
+pause
